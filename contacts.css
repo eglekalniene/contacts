@@ -1,0 +1,38 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content-wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+.shops-wrapper {
+    width: 50%;
+}
+.shops-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.shop {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 15px;
+    width: calc((100% - 15px) / 2);
+}
+ul.shop-address-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.map-wrapper {
+    width: 50%;
+}
+iframe {
+    width: 100%;
+}
